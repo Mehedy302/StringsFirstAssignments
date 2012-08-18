@@ -17,7 +17,19 @@ public class Part1
     }
     
     
-   
+       public void testSimpleGene()
+   {
+       String dna = "TAATTTATGCTGCATGCCTAA";
+       
+       System.out.println("STRAND :"+dna);
+       System.out.println("GENE :"+findSimpleGene(dna));
+       
+       
+       
+    }
+    
+    
+    
     
     
 }
